@@ -7,7 +7,7 @@ require('dotenv').config();
 
 class OPENAI {
   constructor() {
-    this.token = process.env.OPEN_TOKEN;
+    this.token = process.env.OPENAI_TOKEN;
     this.openai = new OpenAI({
       apiKey: this.token,
     });
