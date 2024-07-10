@@ -1,0 +1,36 @@
+{
+  "$id": "openai_response",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Schema for registrations elements in database",
+  "type": "object",
+  "properties": {
+    "primary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "second": {
+      "type": "string",
+      "minLength": 1
+    },
+    "result": {
+      "type": "object",
+      "properties": {
+        "element": {
+          "type": "string",
+          "minLength": 1
+        },
+        "emoji": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "element",
+        "emoji"
+      ]
+    }
+  },
+  "required": [
+    "primary",
+    "second"
+  ]
+}

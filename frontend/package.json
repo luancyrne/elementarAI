@@ -1,0 +1,37 @@
+{
+  "name": "elementarai-ui",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "author": "Luan Cyrne",
+  "description": "ElementarAI_UI this Frontend for ElementarAI_Core",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "start": "vite preview --host"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "localforage": "^1.10.0",
+    "match-sorter": "^6.3.4",
+    "react": "^18.2.0",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "react-router-dom": "^6.22.2",
+    "socket.io": "^4.7.4",
+    "sort-by": "^0.0.2",
+    "styled-components": "^6.1.8"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.56",
+    "@types/react-dom": "^18.2.19",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.18",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "vite": "^5.1.4"
+  }
+}
